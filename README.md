@@ -1,3 +1,7 @@
 # Dynamic-Sets
 
-Dynamic sets is a programming abstraction implemented in Java that enables developers to program the interface of a single device at design time but to bundle and control a variable number of instances at runtime, in order to address the uncertainties about environment settings during runtime in ubiquitous computing or similar environments and make interacting with a variable number of devices easy.
+**Dynamic Sets** is a programming abstraction implemented in Java that allows developers to design the interface for a single device at design time while dynamically managing and controlling multiple instances at runtime. This approach addresses the challenges posed by runtime uncertainties in ubiquitous computing environments, enabling seamless interaction with a variable number of devices.
+
+The implementation is based on the following two publications: 
+• [Dynamic Sets: A Programming Abstraction for Object Bundling](https://dl.acm.org/doi/10.1145/2834965.2834973)
+• [Dynamic Sets: A Programming Abstraction for Ubiquitous Computing and the Internet of Things](https://dl.acm.org/doi/10.1145/3007203.3007213)
