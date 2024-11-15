@@ -5,3 +5,5 @@
 The implementation is based on the following two publications:<br>
 • [Dynamic Sets: A Programming Abstraction for Object Bundling](https://dl.acm.org/doi/10.1145/2834965.2834973)<br>
 • [Dynamic Sets: A Programming Abstraction for Ubiquitous Computing and the Internet of Things](https://dl.acm.org/doi/10.1145/3007203.3007213)
+
+This code is part of the work I developed during my time as a research assistant intern at the University of Rostock through the DAAD RISE program.
