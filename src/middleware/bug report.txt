@@ -1,0 +1,17 @@
+objID already in use
+java.rmi.server.ExportException: internal error: ObjID already in use
+	at sun.rmi.transport.ObjectTable.putTarget(Unknown Source)
+	at sun.rmi.transport.Transport.exportObject(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(Unknown Source)
+	at sun.rmi.transport.LiveRef.exportObject(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.exportObject(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.setup(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.<init>(Unknown Source)
+	at java.rmi.registry.LocateRegistry.createRegistry(Unknown Source)
+	at middleware.transport.RMIServer.export(RMIServer.java:20)
+	at middleware.transport.Gateway.<init>(Gateway.java:17)
+	at middleware.broker.DynamicSetHandler.<init>(DynamicSetHandler.java:16)
+	at middleware.broker.AnnotationParser.parse(AnnotationParser.java:44)
+	at middleware.broker.Middleware.init(Middleware.java:30)
+	at controlclient.ClientCommand.main(ClientCommand.java:16)
